@@ -1,0 +1,73 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    gap: 10px;
+
+    &:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    .avatar {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid rgb(96, 32, 139);
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+    }
+
+    .info {
+        position: relative;
+        padding: 10px;
+        border-radius: 4px 4px 4px 0;
+        background: rgb(96, 32, 139);
+
+        &:before {
+            content: '';
+            position: absolute;
+            right: 100%;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 10px 8px;
+            border-color: transparent transparent rgb(96, 32, 139) transparent;
+        }
+
+        .name {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .info_bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 20px;
+
+            &:not(:first-child) {
+                margin-top: 10px;
+            }
+
+            .messege_text {
+                color: bisque;
+            }
+
+            .time {
+                font-size: 12px;
+                line-height: 12px;
+                color: rgb(107, 171, 171);
+            }
+        }
+    }
+}
