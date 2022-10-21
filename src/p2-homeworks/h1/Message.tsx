@@ -7,7 +7,6 @@ type MessagePropsType = {
     message: string,
     time: string
 }
-console.log(styles);
 
 
 function Message(props: MessagePropsType) {

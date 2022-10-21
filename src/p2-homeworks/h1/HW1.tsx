@@ -12,7 +12,7 @@ const messageData = {
 const alternativeMessageData = {
     avatar: 'https://cf.ltkcdn.net/socialnetworking/images/std/168646-425x425r1-Cat-Avatar-Primary.jpg',
     name: 'Sylvester Stallone',
-    message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..',
+    message: 'Lorem ipsum dolor sit amet',
     date: '23.08.2022',
     time: '22:00'
 }
