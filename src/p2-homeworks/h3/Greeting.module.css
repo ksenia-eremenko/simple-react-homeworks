@@ -1,7 +1,63 @@
-.someClass {
+.HW3 {}
+
+.title {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.greeting {
+    max-width: 400px;
+}
+
+.greeting input {
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(21, 49, 116);
+}
+
+.greeting button {
+    padding: 5px 15px;
+    height: 40px;
+    border: 0;
+    background: rgb(21, 49, 116);
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.greeting button:hover,
+.greeting button:active {
+    background: rgb(20, 42, 93);
+    color: white;
+}
+
+.greeting input.error {
+    border: 1px solid red;
 
 }
 
-.error {
-    border: 1px solid red;
+.greeting input.error::placeholder {
+    color: red;
+}
+
+.greeting .textError {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.greeting .userName span {
+    color: blue;
 }
